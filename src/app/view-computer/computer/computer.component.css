@@ -1,0 +1,32 @@
+* {
+    margin: 5px;;
+}
+
+.update-button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delete-button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.computer-card{
+    background-color: #3ec8eb;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.computer-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

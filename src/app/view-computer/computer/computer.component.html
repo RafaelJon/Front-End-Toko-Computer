@@ -1,0 +1,25 @@
+<div class="computer-card">
+    <h3>computer ID: {{computer.id}}</h3>
+    <div class="computer-detail">
+        <div>
+            Ram:
+            <input [value]="computer.ram" (input)="computer.ram = $event.target.value" type="number" placeholder="insert computer ram here!">
+        </div>
+        <div>
+            Battery: 
+            <input [value]="computer.battery" (input)="computer.battery = $event.target.value" type="number" placeholder="insert computer battery here!">
+        </div>
+        <div>
+            Proccessor:
+            <input [value]="computer.proccessor" (input)="computer.proccessor = $event.target.value" type="text" placeholder="insert computer processor here!">
+        </div>
+        <div>
+            GPU:
+            <input [value]="computer.gpu" (input)="computer.gpu = $event.target.value" type="text" placeholder="insert computer graphic here!">
+        </div>
+    </div>
+    <div>
+        <button class="update-button" (click)="updateComputer()">Update</button>
+        <button class="delete-button" (click)="deleteComputer()">Delete</button>
+    </div>
+</div>

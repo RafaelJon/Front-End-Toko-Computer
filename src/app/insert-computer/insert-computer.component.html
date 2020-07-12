@@ -1,0 +1,19 @@
+<div>
+    <h1>
+        Insert new computer!
+    </h1>
+    <div class="input-card">
+        <br>
+        <input [value]="(ram)" (input)="ram = $event.target.value" type="number" placeholder="insert computer ram here!">
+        <br>
+        <input [value]="(battery)" (input)="battery = $event.target.value" type="number" placeholder="insert computer battery here!">
+        <br>
+        <input [value]="(proccessor)" (input)="proccessor = $event.target.value" type="text" placeholder="insert computer processor here!">
+        <br>
+        <input [value]="(gpu)" (input)="gpu = $event.target.value" type="text" placeholder="insert computer graphic here!">
+        <br>
+        <button (click)="insertComputer()">INSERT</button>
+        <br>
+    </div>
+</div>
+<br>

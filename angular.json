@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TokoComputer"
+    }
+  },
+  "defaultProject": "TokoComputer",
+  "cli": {
+    "analytics": false
+  }
 }
